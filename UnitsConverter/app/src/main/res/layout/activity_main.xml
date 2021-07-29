@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            tools:text="Measurement Units Coverter" />
+
+        <Button
+            android:id="@+id/b_length"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Length Converter" />
+
+        <Button
+            android:id="@+id/b_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Area Converter" />
+
+        <Button
+            android:id="@+id/b_volume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volume Converter" />
+
+        <Button
+            android:id="@+id/b_mass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mass converter" />
+
+        <Button
+            android:id="@+id/b_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temperature Converter" />
+
+        <Button
+            android:id="@+id/b_speed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speed Converter" />
+
+    </LinearLayout>
+
+</RelativeLayout>

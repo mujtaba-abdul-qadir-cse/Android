@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VolumeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="109dp">
+
+        <TextView
+            android:id="@+id/txtview4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volume Converter" />
+
+        <EditText
+            android:id="@+id/editTxt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtResult3"
+            android:layout_width="match_parent"
+            android:layout_height="106dp" />
+
+        <Button
+            android:id="@+id/b_literstogallons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="liters to gallons" />
+
+        <Button
+            android:id="@+id/b_gallonstoliters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gallons to liters" />
+
+        <Button
+            android:id="@+id/b_literstom3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="liters to m³" />
+
+        <Button
+            android:id="@+id/b_m3toliters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="m³ to liters" />
+
+        <Button
+            android:id="@+id/b_gallonstom3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gallons to m³" />
+
+        <Button
+            android:id="@+id/b_m3togallons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="m³ to gallons" />
+
+        <Button
+            android:id="@+id/b_clr3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLEAR ALL" />
+
+        <Button
+            android:id="@+id/b_back3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BACK" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

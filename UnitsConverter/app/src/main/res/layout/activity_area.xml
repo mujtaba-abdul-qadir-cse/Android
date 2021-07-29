@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AreaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="109dp">
+
+        <TextView
+            android:id="@+id/txtview3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Area Converter" />
+
+        <EditText
+            android:id="@+id/editTxt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtResult2"
+            android:layout_width="match_parent"
+            android:layout_height="106dp" />
+
+        <Button
+            android:id="@+id/b_kmsq2misq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="km² to mile²" />
+
+        <Button
+            android:id="@+id/b_misq2kmsq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MILES² TO KM²" />
+
+        <Button
+            android:id="@+id/b_ac2msq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACRE TO M²" />
+
+        <Button
+            android:id="@+id/b_msq2ac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="M² TO ACRE" />
+
+        <Button
+            android:id="@+id/b_hec2msq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HECTARE TO M²" />
+
+        <Button
+            android:id="@+id/b_msq2hec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="M² TO HECTARE" />
+
+        <Button
+            android:id="@+id/b_clr2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLEAR ALL" />
+
+        <Button
+            android:id="@+id/b_back2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BACK" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
